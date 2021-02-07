@@ -40,6 +40,13 @@ nav .fa-bars{
     box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.2);
 }
 
+@media only screen and (max-width: 600px) {
+    .welcome h1{
+        font-size: 30px;
+        color: #333;
+    }
+  }
+
 .welcome h1{
     color: #333;
 }
@@ -242,7 +249,7 @@ nav .fa-bars{
 
 #footer{
     margin-top: 80px;
-    padding: 100px;
+    padding: 70px;
     background-color: #efefef;
     color: #013f7e;
 }
